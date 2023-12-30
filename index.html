@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Mall</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 class="head">Select Your Choice For Shopping</h1>
+        <div class="tabs">
+            <button class="button" onclick="showProducts('men')">Men</button>
+            <button class="button" onclick="showProducts('women')">Women</button>
+            <button class="button" onclick="showProducts('kids')">Kids</button>
+        </div>
+
+        <div id="men" class="product-container"></div>
+        <div id="women" class="product-container" style="display: none;"></div>
+        <div id="kids" class="product-container" style="display: none;"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
